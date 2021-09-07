@@ -1,0 +1,14 @@
+@use '../utils' as *;
+
+.button {
+	margin-top: rem(10);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.button-color {
+	color: var(--dark-gray);
+	text-transform: capitalize;
+	font-size: rem(18);
+}

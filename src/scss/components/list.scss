@@ -1,0 +1,6 @@
+@use '../utils' as *;
+
+.list {
+	max-height: rem(150);
+	overflow: auto;
+}

@@ -1,0 +1,33 @@
+@use '../utils' as *;
+
+#root,
+body,
+html {
+	height: 100%;
+	margin: 0;
+}
+
+.desktop {
+	@include breakpoint(medium) {
+		display: none;
+	}
+}
+
+.mobile {
+	@include breakpoint-down(small) {
+		display: none;
+	}
+}
+
+.main {
+	@include breakpoint(medium) {
+		padding-bottom: 5%;
+	}
+}
+
+.last {
+	@include breakpoint-down(small) {
+		margin-bottom: 3em;
+		padding-bottom: rem(200);
+	}
+}
