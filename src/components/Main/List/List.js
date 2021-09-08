@@ -30,8 +30,8 @@ const List = () => {
 							<Avatar
 								style={
 									transaction.type === 'Income'
-										? { color: '#ffffff', backgroundColor: '#6247aa' }
-										: { color: '#ffffff', backgroundColor: '#ffea00' }
+										? { color: '#ffffff', backgroundColor: '#14746f' }
+										: { color: '#ffffff', backgroundColor: '#cf4f4f' }
 								}
 							>
 								<MoneyOff />
